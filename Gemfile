@@ -27,3 +27,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'bootswatch-rails', '~> 3.3', '>= 3.3.5'
+gem 'devise', '~> 4.2'
