@@ -12,7 +12,7 @@
       <ul class="nav navbar-nav navbar-right">
         <% if user_signed_in? %>
           <li>
-            <%= link_to user_session_path, method: :destroy do %>
+            <%= link_to destroy_user_session_path, method: :delete do %>
               <%= fa_icon "sign-out", text: "Log Out" %>
             <% end %>
           </li>
